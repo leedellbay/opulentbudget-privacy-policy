@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help and FAQ — Opulent Budget</title>
+<meta name="description" content="How to use Opulent Budget, a zero-based envelope budgeting app: step-by-step guides and answers to common questions.">
+<style>
+:root {
+  --bg: #ffffff; --fg: #1c2024; --muted: #5b6672; --rule: #e3e7ec;
+  --accent: #1f6f52; --card: #f6f8fa; --link: #14603f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12161a; --fg: #e6eaee; --muted: #9aa5b1; --rule: #262d35;
+    --accent: #6fd3aa; --card: #1a2027; --link: #7fdcb4;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+}
+main { max-width: 68ch; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .4rem; letter-spacing: -.02em; }
+h2 {
+  font-size: 1.18rem; margin: 2.6rem 0 .7rem; padding-top: 1.4rem;
+  border-top: 1px solid var(--rule); letter-spacing: -.01em;
+}
+h2:first-of-type { border-top: 0; padding-top: 0; }
+h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; }
+p, li { margin: 0 0 .85rem; }
+ul { padding-left: 1.25rem; }
+a { color: var(--link); }
+a:hover { text-decoration: none; }
+.sub { color: var(--muted); margin: 0 0 .2rem; }
+.dates { color: var(--muted); font-size: .93rem; margin: 0 0 2.2rem; }
+.card {
+  background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+  padding: 1rem 1.15rem; margin: 1.4rem 0;
+}
+.card p:last-child, .card ul:last-child { margin-bottom: 0; }
+.card strong { color: var(--accent); }
+.note { font-size: .92rem; color: var(--muted); }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid var(--rule);
+         vertical-align: top; }
+th { font-weight: 600; }
+.wrap { overflow-x: auto; }
+footer { margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--rule);
+         color: var(--muted); font-size: .9rem; }
+code { background: var(--card); padding: .1rem .35rem; border-radius: 4px;
+       font-size: .9em; word-break: break-all; }
+li ol, ol { padding-left: 1.4rem; }
+.toc { columns: 2 16rem; padding-left: 1.1rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Help and FAQ</h1>
+<p class="sub">Opulent Budget — a zero-based envelope budgeting app</p>
+<p class="dates">Published by Lee Dell Bay Innovation</p>
+
+<div class="card"><p><strong>Also in the app.</strong> Everything here works offline inside Opulent Budget: open <em>Settings</em> and choose <em>Help</em>.</p></div>
+
+<h2 id="how-to">How to</h2>
+<ul class="toc">
+<li><a href="#idea">The idea: give every dollar a job</a></li>
+<li><a href="#setup">Set up in five minutes</a></li>
+<li><a href="#transactions">Record spending, income and transfers</a></li>
+<li><a href="#assign">Assign and move money between categories</a></li>
+<li><a href="#overspent">When a category goes over</a></li>
+<li><a href="#cards">Credit cards</a></li>
+<li><a href="#income">Income sources, streams and paychecks</a></li>
+<li><a href="#reserve">Sinking funds and the Opulent Reserve</a></li>
+<li><a href="#month">Month end and the month log</a></li>
+<li><a href="#targets">Targets, recurring entries and alerts</a></li>
+<li><a href="#reports">Reports, sharing and exporting</a></li>
+<li><a href="#profiles">Separate budgets with profiles</a></li>
+<li><a href="#backup">Back up and restore</a></li>
+<li><a href="#look">Change how it looks</a></li>
+<li><a href="#faq">Questions and answers</a></li>
+</ul>
+
+<h3 id="idea">The idea: give every dollar a job</h3>
+<p>Opulent Budget is a zero-based (envelope) budget. You do not track what is already gone; you decide where this month’s income will go before you spend it. Each category is an envelope. When "All money assigned" at the top of the Budget tab reads $0.00, every dollar you expect this month has a job.</p>
+<ul>
+<li>Income drives the budget. The amount you can assign is the paychecks you expect this month, not what happens to be in your bank account.</li>
+<li>Everything stays on your phone. There is no account, no sign-in and no sync.</li>
+</ul>
+
+<h3 id="setup">Set up in five minutes</h3>
+<p>Do these once, in this order.</p>
+<ol>
+<li>Open the Accounts tab and tap + to add each account you want to track (Cash, Checking, Savings or Credit Card) with its current balance.</li>
+<li>Open the Income tab and tap + to add each income source. Give it a stream (for example "Paycheck"), the amount, how often it is paid and the account it lands in.</li>
+<li>Open the Budget tab. Use the three-dot menu beside the month name to Add category, and Rearrange to drag categories between groups.</li>
+<li>Tap a category and choose Assign money to decide how much of this month’s income goes there. Keep going until "All money assigned" shows $0.00.</li>
+</ol>
+
+<h3 id="transactions">Record spending, income and transfers</h3>
+<p>Tap the gold + button in the middle of the bottom bar.</p>
+<ol>
+<li>Choose Spend, Income or Transfer.</li>
+<li>Enter the amount, pick the account and, for spending or income, the category.</li>
+<li>Optionally add a payee, a memo and a date. Switch on Cleared once the bank has shown it.</li>
+<li>Tap Save.</li>
+</ol>
+<ul>
+<li>Need one purchase in several categories? Tap "Split across categories".</li>
+<li>A transfer moves money between your own accounts and is not spending.</li>
+<li>Find, search and edit past entries on the Transactions tab.</li>
+</ul>
+
+<h3 id="assign">Assign and move money between categories</h3>
+<p>Each category row shows what you assigned this month and what is still available. Tap the Assigned heading to switch that column to Activity (what you spent).</p>
+<ol>
+<li>Tap a category to open its menu.</li>
+<li>Choose Assign money to set how much this month’s income funds it.</li>
+<li>To change plans later, assign more to one category and less to another. Nothing is locked.</li>
+</ol>
+<ul>
+<li>The three-dot menu on a row also offers Edit, Move to… (another group), and Make a sinking fund.</li>
+<li>Copy last month and Clear this month are in the month’s three-dot menu.</li>
+</ul>
+
+<h3 id="overspent">When a category goes over</h3>
+<p>An overspent category shows a red available amount and a "Cover" line. Spending that is not covered is real money you do not have assigned, so the app asks you to fix it rather than hiding it.</p>
+<ol>
+<li>Tap the category and choose Cover (or tap the red Cover line).</li>
+<li>Pick another category that has money available. That amount moves across, so the overspent category is covered and the other one goes down.</li>
+</ol>
+
+<h3 id="cards">Credit cards</h3>
+<p>Add the card as an account of type Credit Card. When you charge something, record it against the card with the category it belongs to. The money moves out of that category and into the card’s payment envelope under "Credit Card Payments", so the cash to pay the bill is already set aside.</p>
+<ul>
+<li>If you overspend a category with a card, the shortfall shows as unfunded card debt instead of silently going negative.</li>
+<li>Pay the card with a Transfer from your checking account.</li>
+</ul>
+
+<h3 id="income">Income sources, streams and paychecks</h3>
+<p>An income source (Main Job, Freelance) holds one or more streams (Paycheck, a savings Allotment, Tips). Each stream has its own amount, schedule and destination account.</p>
+<ol>
+<li>Open the Income tab and tap + to add a source or a stream.</li>
+<li>Choose how often the stream is paid. Paydays are counted, not averaged, so a fortnightly stream really does show three paychecks in some months.</li>
+<li>When a paycheck arrives, record it with the + button as Income. That marks the expected paycheck as received.</li>
+</ol>
+<ul>
+<li>Recorded income does not raise what you can assign. The schedule already counted it; the transaction just ticks it off.</li>
+<li>For income with no fixed schedule, such as freelance work, use Plan paychecks to enter the paychecks you expect, because there is no rule to project them from.</li>
+</ul>
+
+<h3 id="reserve">Sinking funds and the Opulent Reserve</h3>
+<p>A sinking fund is a category you save into over months for a bill you know is coming (insurance, a holiday, car repairs). Unlike ordinary categories, it does not reset each month.</p>
+<ol>
+<li>Open a category’s three-dot menu and choose Make a sinking fund.</li>
+<li>Assign money to it each month, as you would any category.</li>
+<li>Its money is held in the built-in Opulent Reserve account on the Accounts tab, which counts toward your net worth.</li>
+</ol>
+<ul>
+<li>Use Assign to account on the Reserve to move money out when you need it.</li>
+<li>The app keeps the Reserve in step for you. Its transfers are marked "Sinking funds" and are not editable in the Transactions list.</li>
+<li>Settings › Budget setup › Sinking funds paid from picks which account the Reserve is funded from.</li>
+</ul>
+
+<h3 id="month">Month end and the month log</h3>
+<p>Regular categories start each month fresh: available is what you assigned this month plus what you spent. Unspent money simply stays in your account.</p>
+<ul>
+<li>When a month finishes, the app records how it went. See every month in Settings › Budget setup › Month log.</li>
+<li>If the new month has no assignments at all, last month’s amounts are copied in for you. Clear this month leaves it empty on purpose.</li>
+<li>Income you did not assign stays in your account and is reported in that month’s log; it does not pile up in later months.</li>
+</ul>
+
+<h3 id="targets">Targets, recurring entries and alerts</h3>
+<p>Three optional helpers, all in Settings › Budget setup.</p>
+<ol>
+<li>Targets: for a category, pick Fund this much monthly, Save this much by a date, or Keep this much available.</li>
+<li>Recurring transactions: add rent, salary or subscriptions once. Switch on Add automatically, or leave it off and the app asks you to confirm each time one comes due.</li>
+<li>Settings › Alerts › Budget alerts: get a notification when a category reaches the percentage you choose, and again if it goes over.</li>
+</ol>
+
+<h3 id="reports">Reports, sharing and exporting</h3>
+<p>The chart icon in the top bar opens Reports: income, spending, net and spending by category for the period you choose.</p>
+<ol>
+<li>Open "Share, email or save".</li>
+<li>Pick PDF, Excel or CSV.</li>
+<li>Tap Share, Email, Save or View.</li>
+</ol>
+<ul>
+<li>Save uses your phone’s Save screen, so you choose where it goes. The app keeps no copy.</li>
+</ul>
+
+<h3 id="profiles">Separate budgets with profiles</h3>
+<p>A profile is a separate budget on this phone, for example Personal and Business. The people icon in the top bar switches between them.</p>
+<ol>
+<li>Tap the people icon.</li>
+<li>Choose a profile, or Add profile to create one.</li>
+<li>Use Manage profiles to rename or delete.</li>
+</ol>
+<ul>
+<li>A profile is just a name that keeps its own data on your device. It is not a user account and there is no sign-in.</li>
+</ul>
+
+<h3 id="backup">Back up and restore</h3>
+<p>Your budget lives only on this phone and nothing is backed up automatically. If the phone is lost, or the app is uninstalled, the data goes with it, so make a backup file now and then.</p>
+<ol>
+<li>Open Settings › Backup.</li>
+<li>Choose Export full backup (JSON) and save the file somewhere safe, such as your cloud drive.</li>
+<li>To restore, choose Restore from backup and pick that file. This replaces everything currently in the app.</li>
+</ol>
+<ul>
+<li>Export transactions (CSV) is for spreadsheets and tax time. It cannot restore a budget.</li>
+</ul>
+
+<h3 id="look">Change how it looks</h3>
+<p>Settings › Appearance › Theme, text size and colour sets light, dark or automatic, makes text larger or smaller, and picks an accent colour.</p>
+
+<h2 id="faq">Questions and answers</h2>
+<h3>Does Opulent Budget connect to my bank?</h3>
+<p>No. You enter transactions yourself. Nothing is imported and your bank details are never asked for.</p>
+<h3>Where is my data, and can you see it?</h3>
+<p>It is stored only on your device. Your accounts, categories, transactions and amounts are never sent to us or anyone else. See the privacy policy in Settings for the full detail.</p>
+<h3>Is there an account, sign-in or sync?</h3>
+<p>No. There is nothing to sign in to and no sync between devices. Use Export full backup and Restore from backup to move a budget to a new phone.</p>
+<h3>Why is the amount available to assign more than my bank balance?</h3>
+<p>Because the budget works from the income you expect this month, not from today’s balance. A bill due before payday can still be funded against a paycheck that has not arrived.</p>
+<h3>Why did a category’s money disappear at the start of the month?</h3>
+<p>Regular categories start fresh each month. The money you did not spend is still in your account; assign it again where you want it. For money that should carry over, make the category a sinking fund.</p>
+<h3>Why does my fortnightly paycheck show three payments some months?</h3>
+<p>Paydays are counted on the calendar, not averaged. Some months contain three.</p>
+<h3>I recorded my paycheck but "All money assigned" did not change.</h3>
+<p>That is intended. The expected paycheck was already counted from your income schedule. Recording it marks it as received.</p>
+<h3>What does the red "over budget" card mean?</h3>
+<p>A finished month ended with one or more categories overspent. Tap Details to see which, and cover them from categories that have money.</p>
+<h3>I deleted a category. What happened to its transactions?</h3>
+<p>If a category has transactions, the app asks where to move their history before it deletes anything. If you would rather keep it, archive it instead.</p>
+<h3>Why can I not edit a "Sinking funds" transfer?</h3>
+<p>The app makes those transfers itself to keep the Opulent Reserve in step with your sinking funds. Change the category’s assignment and the Reserve follows.</p>
+<h3>How do I move to a new phone?</h3>
+<p>On the old phone choose Settings › Backup › Export full backup (JSON) and send the file to yourself. On the new phone install the app and choose Restore from backup.</p>
+<h3>Does the app show ads?</h3>
+<p>The Android and iPhone versions are free and show ads. The Mac version shows none. Ads never have access to your budget. Settings › Privacy explains what the ad network collects and how to turn off personalised ads.</p>
+<h3>Money looks wrong by a few cents. Why?</h3>
+<p>Amounts are stored in whole cents, so nothing is rounded or lost to floating-point error. If a total disagrees with what you expect, look for a transaction in the wrong account or month.</p>
+<h3>How do I contact support?</h3>
+<p>Email leedellbay@gmail.com and say which version you are using.</p>
+
+<footer>
+  <p>Still stuck? Email <a href="mailto:leedellbay@gmail.com">leedellbay@gmail.com</a> and say which version of the app you use. See also the <a href="../">privacy policy</a>.</p>
+</footer>
+
+</main>
+</body>
+</html>
